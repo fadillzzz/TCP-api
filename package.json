@@ -1,0 +1,24 @@
+{
+  "name": "tcp-api",
+  "private": true,
+  "version": "0.0.1",
+  "description": "The Casino Party API",
+  "keywords": [],
+  "dependencies": {
+    "include-all": "~0.1.6",
+    "openid": "^2.0.1",
+    "rc": "1.0.1",
+    "sails": "~0.12.3",
+    "sails-disk": "~0.10.9"
+  },
+  "scripts": {
+    "debug": "node debug app.js",
+    "start": "node app.js"
+  },
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/fadillzzz/tcp-api.git"
+  },
+  "license": "MIT"
+}
